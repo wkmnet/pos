@@ -1,5 +1,7 @@
 package org.spring.pos;
 
+import org.jpos.util.NameRegistrar;
+
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
@@ -33,6 +35,7 @@ public class AppTest
      */
     public void testApp()
     {
+    	NameRegistrar.register("", "");
         assertTrue( true );
     }
 }
